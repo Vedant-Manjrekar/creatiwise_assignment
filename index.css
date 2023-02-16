@@ -36,7 +36,7 @@ section {
 }
 
 .navbar .main_logo {
-  background: url("./assets/logo1.svg");
+  background: url("https://ik.imagekit.io/egc6dppxh/assets/logo1.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676558057141");
   background-repeat: no-repeat;
   height: 100%;
   width: 20vw;
@@ -65,6 +65,7 @@ section {
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .first {
@@ -172,6 +173,7 @@ section {
 
 footer {
   background-color: var(--violet);
+  padding: 2rem 0;
 }
 
 footer .row {
@@ -182,6 +184,7 @@ footer .row {
 
 footer p {
   color: white;
+  margin-bottom: 0;
 }
 
 footer .foot {
@@ -320,7 +323,6 @@ footer .foot2 .more {
 
 footer .foot2 .copyright {
   text-align: center;
-  margin-bottom: 1rem;
 }
 
 /* Media Query for Mobile Devices */
@@ -335,7 +337,7 @@ footer .foot2 .copyright {
   }
   .navbar .main_logo {
     width: 30vw;
-    background: url("./assets/logo1.1.svg") no-repeat;
+    background: url("https://ik.imagekit.io/egc6dppxh/assets/logo1.1.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676558057141") no-repeat;
     width: 10vw;
   }
   .navbar .blank {

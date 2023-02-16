@@ -40,7 +40,7 @@ section {
   place-items: center;
 
   .main_logo {
-    background: url('./assets/logo1.svg');
+    background: url('https://ik.imagekit.io/egc6dppxh/assets/logo1.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676558057141');
     background-repeat: no-repeat;
     height: 100%;
     width: 20vw;
@@ -66,6 +66,7 @@ section {
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 20px;
+    cursor: pointer;
   }
 }
 
@@ -136,6 +137,7 @@ section {
 
 footer {
   background-color: var(--violet);
+  padding: 2rem 0;
 
   .row {
     margin: 0;
@@ -145,6 +147,7 @@ footer {
 
   p {
     color: white;
+    margin-bottom: 0;
   }
 
   .foot {
@@ -243,7 +246,6 @@ footer {
 
     .copyright {
       text-align: center;
-      margin-bottom: 1rem;
     }
   }
 }
@@ -260,7 +262,8 @@ footer {
 
     .main_logo {
       width: 30vw;
-      background: url('./assets/logo1.1.svg') no-repeat;
+      background: url('https://ik.imagekit.io/egc6dppxh/assets/logo1.1.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676558057141')
+        no-repeat;
       width: 10vw;
     }
 
@@ -336,11 +339,6 @@ footer {
   }
 }
 
-// /* Media Query for low resolution Tablets, Ipads */
-// @media (min-width: 481px) and (max-width: 767px) {
-
-// }
-
 // /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   .third .banner1 {
@@ -383,17 +381,3 @@ footer {
     }
   }
 }
-
-// /* Media Query for Laptops and Desktops */
-// @media (min-width: 1025px) and (max-width: 1280px) {
-//   body {
-//     background-color: green;
-//   }
-// }
-
-// /* Media Query for Large screens */
-// @media (min-width: 1281px) {
-//   body {
-//     background-color: white;
-//   }
-// }
