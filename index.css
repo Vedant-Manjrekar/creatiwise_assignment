@@ -407,6 +407,9 @@ footer .foot2 .copyright {
   .third .banner1 {
     width: 80%;
   }
+  .first .main {
+    padding: 0 8vw;
+  }
   .navbar .main_logo {
     width: 25vw;
   }
