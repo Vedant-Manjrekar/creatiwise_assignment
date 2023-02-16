@@ -228,6 +228,7 @@ footer {
         .send:hover {
           background-color: rgb(136, 177, 76);
           cursor: pointer;
+          left: 138%;
         }
       }
     }
@@ -320,7 +321,8 @@ footer {
     p {
       width: 100%;
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1rem;
+      font-weight: bold;
       margin: 0;
     }
 
@@ -375,10 +377,10 @@ footer {
 
         .email {
           input {
-            width: auto;
+            width: 90%;
           }
           .send {
-            left: 138%;
+            left: 79%;
           }
         }
       }
